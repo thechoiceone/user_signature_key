@@ -18,7 +18,7 @@ try:
 except ImportError:
     pass
 
-type_ = FILETYPE_PEM
+#type_ = FILETYPE_PEM
 
 zero_values = {
     "filename": "",
