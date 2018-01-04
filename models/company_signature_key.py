@@ -110,7 +110,7 @@ class userSignature(models.Model):
 
         print('subject.C            ', subject.C)
         print('subject.title        ', subject.title)
-        print('subject.CN           ', subject.CN)
+        print('subject.CN           ', subject.CN.encode('utf-8'))
         print('subject.serialNumber ', subject.serialNumber)
         print('subject.emailAddress ', subject.emailAddress)
 
